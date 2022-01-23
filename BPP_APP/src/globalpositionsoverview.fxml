@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewgpcontroller">
+   <children>
+      <PieChart fx:id="globalpie" layoutX="93.0" layoutY="100.0" prefHeight="150.0" prefWidth="167.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="273.0" text="Order deposits" textFill="#78953b" />
+      <TextField fx:id="tforderdeposits" alignment="CENTER" layoutX="102.0" layoutY="297.0" />
+      <Label alignment="CENTER" layoutX="102.0" layoutY="334.0" text="Savings" textFill="#78953b" />
+      <Label alignment="CENTER" layoutX="106.0" layoutY="388.0" text="Saving certificates" textFill="#78953b" />
+      <Label alignment="CENTER" layoutX="102.0" layoutY="440.0" text="PPRS" textFill="#78953b" />
+      <Label alignment="CENTER" layoutX="105.0" layoutY="491.0" text="Cryptocurrency" textFill="#78953b" />
+      <TextField fx:id="tfsavings" alignment="CENTER" layoutX="103.0" layoutY="352.0" />
+      <TextField fx:id="tfsavingcertificates" alignment="CENTER" layoutX="102.0" layoutY="405.0" />
+      <TextField fx:id="tfpprs" alignment="CENTER" layoutX="103.0" layoutY="458.0" />
+      <TextField fx:id="tfcryptocurrency" alignment="CENTER" layoutX="102.0" layoutY="509.0" />
+      <Button layoutX="154.0" layoutY="552.0" mnemonicParsing="false" onAction="#gotomenu" text="Menu" />
+      <Pane prefHeight="75.0" prefWidth="335.0" style="-fx-background-color: #78953B;">
+         <children>
+            <Text layoutX="32.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Global positions">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button layoutX="6.0" layoutY="296.0" mnemonicParsing="false" onAction="#showglobalpositions" prefHeight="51.0" prefWidth="71.0" style="-fx-background-color: #78953B;" text="Show&#10;amounts&#10;" textAlignment="CENTER" />
+      <Button layoutX="3.0" layoutY="157.0" mnemonicParsing="false" onAction="#showpiechart" prefHeight="51.0" prefWidth="71.0" style="-fx-background-color: #78953B;" text="Show &#10;Pie Chart&#10;" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

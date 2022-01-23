@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <ImageView fitHeight="213.0" fitWidth="335.0" layoutY="-5.0">
+         <image>
+            <Image url="@../../../../Pictures/Screenshots/Captura%20de%20Ecrã%20(237).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="31.0" text="BPP">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="354.0" prefHeight="31.0" prefWidth="163.0" text="Enter your passcode" />
+      <PasswordField fx:id="pfPasscode" layoutX="98.0" layoutY="392.0" onInputMethodTextChanged="#tomenuindividual" />
+      <Button layoutX="140.0" layoutY="442.0" mnemonicParsing="false" onAction="#tomenuindividual" text="Login" />
+      <Label alignment="CENTER" layoutX="92.0" layoutY="253.0" prefHeight="31.0" prefWidth="163.0" text="Enter your contract number" />
+      <TextField fx:id="tfContractNumber" layoutX="98.0" layoutY="300.0" />
+      <Label fx:id="label_type" layoutX="52.0" layoutY="500.0" />
+      <Button layoutX="112.0" layoutY="547.0" mnemonicParsing="false" onAction="#tocompanylogin" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #78953B;" text="Login - company" />
+   </children>
+</Pane>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <Pane prefHeight="128.0" prefWidth="335.0" style="-fx-background-color: #78953B;">
+         <children>
+            <ImageView fitHeight="119.0" fitWidth="119.0" layoutX="108.0" layoutY="4.0">
+               <image>
+                  <Image url="@../../PS/Trabalho/netflix.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="133.0" layoutY="79.0" text="MENU">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button cacheShape="false" centerShape="false" focusTraversable="false" layoutX="35.0" layoutY="236.0" mnemonicParsing="false" onAction="#generatereference" prefHeight="105.0" prefWidth="81.0" scaleShape="false" style="-fx-background-color: #78953B; -fx-background-color: #78953B;" text="&#10;&#10;&#10;Generate&#10;a&#10;Reference&#10;" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="127.0" layoutY="236.0" mnemonicParsing="false" onAction="#doIBANconsult_i" prefHeight="105.0" prefWidth="81.0" style="-fx-background-color: #78953B;" text="&#10;&#10;&#10;IBAN&#10;Consult&#10;" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="218.0" layoutY="236.0" mnemonicParsing="false" onAction="#doIBANtransference_i" prefHeight="105.0" prefWidth="81.0" style="-fx-background-color: #78953B;" text="&#10;&#10;&#10;IBAN&#10;Transference&#10;&#10;" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="122.0" layoutY="167.0" mnemonicParsing="false" onAction="#checktotalbalance_i" text="Total Balance" />
+      <Button layoutX="123.0" layoutY="560.0" mnemonicParsing="false" onAction="#applogout" prefHeight="25.0" prefWidth="87.0" text="Logout" />
+      <ImageView layoutX="49.0" layoutY="247.0">
+         <image>
+            <Image url="@imagens/carrinho%20de%20compras.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="54.0" layoutX="140.0" layoutY="247.0">
+         <image>
+            <Image url="@imagens/ibanconsult.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="47.0" layoutX="235.0" layoutY="251.0">
+         <image>
+            <Image url="@imagens/iban%20transference.png" />
+         </image>
+      </ImageView>
+      <Button cacheShape="false" centerShape="false" focusTraversable="false" layoutX="34.0" layoutY="354.0" mnemonicParsing="false" onAction="#phoneway_i" prefHeight="105.0" prefWidth="81.0" scaleShape="false" style="-fx-background-color: #78953B; -fx-background-color: #78953B;" text="&#10;&#10;&#10;&#10;Phone&#10;Way&#10;&#10;" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button cacheShape="false" centerShape="false" focusTraversable="false" layoutX="126.0" layoutY="354.0" mnemonicParsing="false" onAction="#globalpositionsoptions_i" prefHeight="105.0" prefWidth="81.0" scaleShape="false" style="-fx-background-color: #78953B; -fx-background-color: #78953B;" text="&#10;&#10;&#10;Global &#10;Positions&#10;Options&#10;&#10;" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button cacheShape="false" centerShape="false" focusTraversable="false" layoutX="217.0" layoutY="354.0" mnemonicParsing="false" onAction="#gotoglobalpositionsoverview" prefHeight="105.0" prefWidth="81.0" scaleShape="false" style="-fx-background-color: #78953B; -fx-background-color: #78953B;" text="&#10;&#10;&#10;Global &#10;Positions&#10;View&#10;&#10;&#10;" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="147.0" layoutY="365.0">
+         <image>
+            <Image url="@imagens/globalpositionsoptions.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="54.0" layoutX="47.0" layoutY="358.0">
+         <image>
+            <Image url="@imagens/PHONEWAY.png" />
+         </image>
+      </ImageView>
+      <ImageView layoutX="235.0" layoutY="365.0">
+         <image>
+            <Image url="@imagens/assets.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

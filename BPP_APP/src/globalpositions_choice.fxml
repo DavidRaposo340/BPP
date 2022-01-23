@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="choicegbcontroller">
+   <children>
+      <ChoiceBox fx:id="choicebox" layoutX="92.0" layoutY="207.0" prefWidth="150.0" />
+      <Pane prefHeight="75.0" prefWidth="335.0" style="-fx-background-color: #78953B;">
+         <children>
+            <Text layoutX="32.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Global positions">
+               <font>
+                  <Font name="Arial Black" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Button layoutX="144.0" layoutY="545.0" mnemonicParsing="false" onAction="#gotomenu" text="Menu" />
+      <Button layoutX="103.0" layoutY="498.0" mnemonicParsing="false" onAction="#gotoglobalpositionsoverview" style="-fx-background-color: #78953B;" text="View Global Positions" />
+      <ChoiceBox fx:id="choicebox2" layoutX="92.0" layoutY="300.0" prefWidth="150.0" />
+      <Button layoutX="138.0" layoutY="368.0" mnemonicParsing="false" onAction="#changepositions" style="-fx-background-color: #78953B;" text="Confirm" />
+      <Label layoutX="14.0" layoutY="96.0" text="Change the position of " textFill="#78953b" />
+      <TextField fx:id="tfAmountgp" layoutX="92.0" layoutY="147.0" />
+      <Label layoutX="14.0" layoutY="189.0" text="From" textFill="#78953b" />
+      <Label layoutX="14.0" layoutY="272.0" text="To" textFill="#78953b" />
+      <Label layoutX="138.0" layoutY="123.0" text="Amount" textFill="#918e8e" />
+      <Label fx:id="labeldone" layoutX="57.0" layoutY="449.0" prefHeight="17.0" prefWidth="237.0" />
+   </children>
+</AnchorPane>

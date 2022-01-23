@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="errorcn_controller">
+   <children>
+      <Label layoutX="86.0" layoutY="118.0" text="BPP" textFill="#78953b">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="387.0" text="Please, try again!" />
+      <Button layoutX="120.0" layoutY="419.0" mnemonicParsing="false" onAction="#toindividualogin" style="-fx-background-color: #78953B;" text="Login - individual" />
+      <Button layoutX="120.0" layoutY="457.0" mnemonicParsing="false" onAction="#tocompanylogin" prefHeight="25.0" prefWidth="109.0" style="-fx-background-color: #78953B;" text="Login - company" />
+      <Label fx:id="labelerrocn" layoutX="38.0" layoutY="274.0" prefHeight="17.0" prefWidth="328.0" text="Label" textFill="RED">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
